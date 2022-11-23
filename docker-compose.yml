@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   ragic:
-    image: modagovtw/ragic
+    image: modagovtw/ragic:latest
     ports:
       - "80:80"
     volumes:
