@@ -8,3 +8,5 @@ services:
       - ./volumes/conf:/srv/ragic/conf
       - ./volumes/cust:/srv/ragic/cust
       - ./volumes/log:/srv/ragic/log
+      - ./volumes/backupDir:/srv/ragic/backupDir
+
