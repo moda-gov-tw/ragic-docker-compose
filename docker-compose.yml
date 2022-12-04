@@ -5,8 +5,4 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./volumes/conf:/srv/ragic/conf
-      - ./volumes/cust:/srv/ragic/cust
-      - ./volumes/log:/srv/ragic/log
-      - ./volumes/backup:/srv/ragic/backup
-
+      - ./volumes:/srv/ragic/volumes
